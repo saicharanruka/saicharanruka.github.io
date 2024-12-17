@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Sai Charan Ruka</title>
+    <link>https://saicharanruka.github.io/</link>
+    <description>Recent content in Home on Sai Charan Ruka</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Dec 2024 17:03:54 +0530</lastBuildDate>
+    <atom:link href="https://saicharanruka.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Demo</title>
+      <link>https://saicharanruka.github.io/projects/demo/</link>
+      <pubDate>Tue, 17 Dec 2024 17:03:54 +0530</pubDate>
+      <guid>https://saicharanruka.github.io/projects/demo/</guid>
+      <description>&lt;p&gt;This is a demo project&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>https://saicharanruka.github.io/blog/first/</link>
+      <pubDate>Tue, 17 Dec 2024 15:15:55 +0530</pubDate>
+      <guid>https://saicharanruka.github.io/blog/first/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor, purus id gravida iaculis, ante sapien vestibulum erat, ut viverra mauris ligula quis lorem. Nulla aliquam urna ac purus feugiat, quis feugiat mi rhoncus. Nulla facilisi. Sed ac libero venenatis, ultricies lacus et, ullamcorper eros. Praesent at est in diam luctus elementum et eu lorem. Integer cursus sapien eu odio consectetur dapibus quis vitae libero. Donec iaculis pellentesque blandit. Donec velit risus, malesuada vitae dolor eget, venenatis porttitor nisi. Ut congue augue at erat lobortis, vitae pellentesque magna egestas. Cras quis suscipit nunc. Sed ac augue leo. Vivamus mattis luctus euismod. Nulla suscipit, orci id pharetra condimentum, sem odio vulputate libero, eu egestas diam elit ac ex.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://saicharanruka.github.io/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://saicharanruka.github.io/home/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

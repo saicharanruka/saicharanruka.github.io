@@ -1,0 +1,170 @@
+:root {
+    --bg :#f8efef;
+    --text : #3a414c;
+    --textHighlight: #b49c4c;
+
+}
+
+html, body {
+    height: 100%;
+    margin: 10px;
+    /* margin-left: 10px; */
+}
+
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+
+body {
+    font-family: literata;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    background-color: var(--bg);
+    color: var(--text);            
+    margin: 0 auto;
+    padding-top: 25px;
+    line-height: 1.6;
+    font-size: 18px;
+    flex: 1; /* Pushes footer to the bottom */
+}
+
+
+a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: var(--textHighlight);
+    text-decoration-thickness: 3px;
+    padding: 2px 4px; /* Optional padding for better hover effect */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  }
+  
+a:hover {
+    background-color: var(--textHighlight); /* Match background to underline color */
+    text-decoration-thickness: 0px;
+    color: white;
+    /* text-decoration-color: white; Change underline color to contrast with background */
+  }
+
+
+
+
+
+/* HEADER START */
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    text-align: left !important;
+    justify-content: flex-start;
+    
+}
+.header-title h1{
+    font-size: larger;
+}
+
+.header-title a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-options {
+    display: flex;
+    min-width: 800px;
+    justify-content: left; /* Adjust as needed */
+
+    max-width: 100%; /* Prevent overflow */
+    gap: 15px;
+}
+
+
+
+
+
+
+/* HOME START */
+.home {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    gap: 20px; /* Space between text and image */
+    max-width: 800px; /* Prevents excessive scaling */
+    margin: 0 auto; /* Centers the div horizontally */
+}
+
+.homeImage {
+    width: 250px;
+    border-radius: 5%;
+    height: auto;
+}
+
+.homeContent {
+    flex: 1; /* Allows text to take remaining space */
+}
+
+
+
+.blogList {
+    display: flex;
+    align-items:flex-start; /* Align items vertically */
+    gap: 20px; /* Space between text and image */
+    max-width: 800px; /* Prevents excessive scaling */
+    margin: 0 auto; /* Centers the div horizontally */
+
+}
+
+
+@media (max-width: 800px) {
+    .header-options {
+        display: flex;
+        justify-content: left; /* Adjust as needed */
+
+
+        width: 100%; /* Take full width */
+        min-width: unset; /* Remove fixed min-width */
+    }
+
+}
+
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    .home {
+        flex-direction: column-reverse; /* Stack text and image */
+        text-align: center; /* Center text */
+      }
+
+
+
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (max-width: 800px) {
+
+
+
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+ } 

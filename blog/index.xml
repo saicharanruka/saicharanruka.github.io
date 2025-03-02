@@ -6,14 +6,6 @@
     <description>Recent content in Blogs on Sai Charan Ruka</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Mar 2025 09:10:29 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Self hosting your website locally</title>
-      <link>http://localhost:1313/blog/self-hosted-website/</link>
-      <pubDate>Sun, 02 Mar 2025 09:10:29 +0530</pubDate>
-      <guid>http://localhost:1313/blog/self-hosted-website/</guid>
-      <description>&lt;p&gt;Content&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

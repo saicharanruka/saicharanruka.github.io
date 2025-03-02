@@ -32,7 +32,7 @@ body {
     padding-top: 25px;
     line-height: 1.6;
     font-size: 18px;
-    flex: 1; /* Pushes footer to the bottom */
+    flex: 1; 
 }
 
 
@@ -94,6 +94,8 @@ a:hover {
 
 
 /* HOME START */
+
+
 .home {
     display: flex;
     align-items: center; /* Align items vertically */
@@ -112,6 +114,10 @@ a:hover {
     flex: 1; /* Allows text to take remaining space */
 }
 
+/* .contact {
+    display: flex;
+} */
+
 
 
 .blogList {
@@ -122,6 +128,47 @@ a:hover {
     margin: 0 auto; /* Centers the div horizontally */
 
 }
+
+
+
+/* PORTFOLIO START */
+
+
+.card {
+    padding: 2em;
+    /* border: 1px solid rgb(75,82,92); */
+    text-align: center;
+    padding: 25px;
+    /* padding-right: 25px; */
+    width: 100%;
+
+}
+.card img {
+    object-fit: cover;
+    
+}
+.cards {
+    min-width: 100%;
+    
+}
+
+.gridContainer {
+    display: grid;
+    min-width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    justify-content: center;
+    width: auto;
+}
+
+
+
+
+
+
+/* PORTFOLIO END */
+
+
 
 
 @media (max-width: 800px) {
